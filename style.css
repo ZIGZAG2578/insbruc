@@ -1,0 +1,137 @@
+@import url("meadia.css");
+header {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+footer {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    color: orange;
+}
+
+h2 {
+    color: #2a3d8f;
+    font-size: 36px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+figcaption {
+    color: #fff;
+    padding: 5px;
+    background-color: rgb(124, 124, 124);
+    text-align: center;
+    font-size: 22px;
+}
+
+.about-list {
+    list-style: none;
+}
+
+.about-list li::before {
+    content: "✓";
+    /* отступ между галочкой и текстом */
+    margin-right: 3px;
+}
+
+.about-numbers {}
+
+.main-menu {
+    flex-grow: 1;
+}
+
+.main-menu-list {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    justify-content: space-around;
+}
+
+.main-menu-list a {
+    text-decoration: none;
+    color: rgba(48, 46, 46, 0.815);
+    border: 3px dotted red;
+    font-size: 30px;
+}
+
+.main-menu-list a:hover {
+    color: yellow;
+    font-size: 40px;
+}
+
+.slogan {
+    background-image: url(img/innsbruck1.png);
+    height: 558px;
+    background-size: cover;
+}
+
+.slogan h1 {
+    color: white;
+    font-size: 60px;
+    padding-top: 240px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.marketing {
+    background-image: url(img/skier.png);
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center right;
+}
+
+.marketing p {
+    text-transform: uppercase;
+}
+
+.about-temp img {
+    width: 100%;
+}
+
+.wrap-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.gallary-list {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.gallary-item {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
+    background-color: #b5d4c5;
+    color: #fff;
+    text-align: center;
+    align-items: center;
+    min-height: 256px;
+}
+
+.gallary-item h3 {
+    text-transform: uppercase;
+    flex-grow: 1;
+}
+
+#logo {
+    height: 70px;
+    width: 75px;
+}

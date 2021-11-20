@@ -1,0 +1,23 @@
+@media (max-width: 1200px) {
+    h2 {
+        font-size: 20px;
+    }
+    h3 {
+        font-size: 14px;
+    }
+    .container {
+        width: 90%;
+    }
+    .main-menu-list a {
+        font-size: 24px;
+    }
+    .gallary-item {
+        flex-direction: column;
+    }
+    .gallary-item img {
+        width: 100%;
+    }
+    .gallary-item:nth-child(2) {
+        flex-direction: column-reverse;
+    }
+}
